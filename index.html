@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Задать вопрос</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+
+	
+</head>
+<body>
+	<div class="frame">
+		<form class="form" action="https://digital-spectr.com/ac/academy.php" method="post">
+			<div class="caption">
+			Задать вопрос
+			</div>	
+
+			<div>				
+			<input class="row" type="text" id="name" name="name" placeholder="Фамилия Имя Отчество *" title="Только русские буквы, пробелы, тире" pattern="^[А-Яа-яЁё\-\s]+$" required=""><br>
+			</div>
+
+			<div>
+			<input class="row" type="number" id="number" name="phone" placeholder="Телефон *" required><br>
+			</div>
+
+			<div>
+			<input class="row" type="email" id="email" name="email" placeholder="Email"><br>
+			</div>
+
+			
+			<button class="button">ОТПРАВИТЬ ЗАПРОС</button>
+
+		</form>
+	</div>
+</body>
+</html>
